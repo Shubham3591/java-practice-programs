@@ -4,7 +4,7 @@ import java.util.*;
 public class Collections_ADuplicateWord {
     public static void main(String args[]){
     String s="My Name is Shubham My Name";
-    String words[]=s.split(" ");
+    String[] words =s.split(" ");
 
     Map<String, Integer> m= new LinkedHashMap<>();
 

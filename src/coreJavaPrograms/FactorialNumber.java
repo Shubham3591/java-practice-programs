@@ -31,8 +31,7 @@ public class FactorialNumber {
 		else
 			return(num * fact(num-1));
 	}
-	
-	//
+
 
    /* public static void main(String[] args) {
         int num=123;
